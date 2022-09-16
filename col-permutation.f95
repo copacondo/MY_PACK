@@ -17,7 +17,7 @@ program packed_matrix
 	print*, x%col_start
 	
     contains
-    
+#    
     function packing(A)
         implicit none
         real :: A(:,:)
